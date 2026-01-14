@@ -1,0 +1,16 @@
+# deps
+node_modules/
+**/node_modules/
+
+# env
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+
+# builds
+web/dist/
+api/db.json
