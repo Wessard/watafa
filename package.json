@@ -1,0 +1,9 @@
+{
+  "name": "beauty-mvp",
+  "private": true,
+  "workspaces": ["api", "web"],
+  "scripts": {
+    "dev": "npm --workspace api run dev & npm --workspace web run dev",
+    "dev:win": "npm --workspace api run dev | npm --workspace web run dev"
+  }
+}
